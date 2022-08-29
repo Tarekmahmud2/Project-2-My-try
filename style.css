@@ -1,0 +1,130 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background: url('bg.jpg');
+    background-repeat: no-repeat;
+    background-size: 2000px 1080px;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.left {
+    position: absolute;
+    left: 26px;
+    top: 22px;
+    display: inline-block;
+    text-align: center;
+}
+
+.left img {
+    width: 102px;
+    cursor: pointer;
+}
+
+.mid {
+    position: relative;
+    display: block;
+    margin: 20px auto;
+    width: 80%;
+    left: 34px;
+    top: 0px;
+    text-align: center;
+}
+
+.navbar {
+    display: inline-block;
+}
+
+.navbar li {
+    display: inline-block;
+    font-size: 20px;
+}
+
+.navbar li a {
+    color: rgb(6, 6, 6);
+    text-decoration: none;
+    padding: 30px;
+}
+
+.navbar li a:hover {
+    color: rgb(250 88 0);
+    padding: 30px;
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.right {
+    position: absolute;
+    top: 30px;
+    right: 20px;
+    display: inline-block;
+}
+
+.btn {
+    margin: 4px;
+    padding: 4px 19px;
+    border: 2px solid #bcb8b8;
+    border-radius: 4px;
+    background-color: #ffb903;
+    cursor: pointer;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+.btn:hover {
+    margin: 4px;
+    padding: 6px 22px;
+    border: 2px solid #bcb8b8;
+    border-radius: 4px;
+    background-color: rgb(250 88 0);
+    cursor: pointer;
+    color: white;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container {
+    margin: 38px 750px;
+    padding: 78px 100px;
+    border: 2px solid rgb(0 0 0);
+    width: 33%;
+    border-radius: 20px;
+    background-color: #ffffff30;
+}
+
+.container h1 {
+    text-align: center;
+}
+
+.container button {
+    display: block;
+    width: 66%;
+    margin: 4px auto;
+    padding: 7px 45px;
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+}
+
+.container button:hover {
+    display: block;
+    width: 66%;
+    margin: 4px auto;
+    padding: 7px 45px;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+}
+
+.form-group input {
+    font-family: 'Poppins', sans-serif;
+    display: block;
+    margin: 13px auto;
+    padding: 9px 6px;
+    border: 2px solid black;
+    border-radius: 4px;
+    text-align: center;
+    width: 400px;
+    font-weight: bold;
+}
